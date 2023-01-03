@@ -13,15 +13,21 @@ int fact(int n)
 }
 int main()
 {
-        int n,r;
+        int n,r,s;
         cout<<"Enter the Values of n and r:";
         cin>>n;
         cin>>r;
-        int a=fact(n);
-        int b=fact(r);
-        int c=fact(n-r);
-        int s=a/(b*c);
-        cout<<"Value of nCr="<<s;
+        if(n==0)
+                s=0;
+        if(n>=r)
+        {
+                int a=fact(n);
+                int b=fact(r);
+                int c=fact(n-r);
+                s=a/(b*c);
+                cout<<"Value of nCr="<<s;
+         }
+        else cout<<"Invalid Input";
         return(0);
 }
 
