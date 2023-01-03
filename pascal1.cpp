@@ -71,6 +71,7 @@ int main()
                 }
 
                 cout<<"\n";
+                z=z-1;
 
         }
 
