@@ -58,7 +58,7 @@ int main()
         {
 
                 for(int k=z;k>0;k--)
-                  cout<<"  ";
+                  cout<<" ";
                 
                 for(int j=0;j<=i;j++)
 
