@@ -11,16 +11,14 @@ int fact(int n)
         }
         return (f);
 }
-int ncr()
+int ncr(int n, int r)
 {
-        int n,r;
-        cout<<"Enter the Values of n and r:";
-        cin>>n;
-        cin>>r;
+
+
         int a=fact(n);
         int b=fact(r);
         int c=fact(n-r);
         int s=a/(b*c);
-        cout<<"Value of nCr="<<s;
-        return(0);
+
+        return(s);
 }
