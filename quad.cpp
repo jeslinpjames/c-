@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-     int a,b,c,r1,r2,d,k=0;
+     int a,b,c,r1,r2,d,k=0,real, imaginary;
      cout<<"Enter the values of a b and c:";
      cin>>a;
      cin>>b;
