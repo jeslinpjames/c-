@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 int fact(int n)
 {
@@ -13,17 +12,26 @@ int fact(int n)
 }
 int ncr(int n, int r)
 {
-
-
+        if(n==0)
+                return 0;
         int a=fact(n);
         int b=fact(r);
         int c=fact(n-r);
         int s=a/(b*c);
-
         return(s);
 }
 int main()
 {
         int l;
-        cout<<"Enter the number of rows:”;
-        k
+        cout<<"Enter the number of rows:" ;
+        cin>>l;
+        for(int i =0;i<l;i++)
+        {
+                for(int j=0;j<=i;j++)
+                {
+                        int s= ncr(i,j);
+                        cout<<s<<" ";
+                }
+                cout<<"\n";
+        }
+}
