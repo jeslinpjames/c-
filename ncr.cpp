@@ -1,6 +1,16 @@
 #include<iostream>
 
 using namespace std;
+int fact(int n)
+{
+        int f=1;
+        while(n>0)
+        {
+                f=f*n;
+                n=n-1;
+        }
+        return (f);
+}
 int main()
 {
         int n,r;
@@ -14,14 +24,5 @@ int main()
         cout<<"Value of nCr="<<s;
         return(0);
 }
-public: int fact(int n)
-{
-        int f=1;
-        while(n>0)
-        {
-                f=f*n;
-                n=n-1;
-        }
-        return (f);
-}
+
 
