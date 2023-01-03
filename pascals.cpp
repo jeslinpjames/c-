@@ -22,3 +22,8 @@ int ncr(int n, int r)
 
         return(s);
 }
+int main()
+{
+        int l;
+        cout<<"Enter the number of rows:”;
+        k
