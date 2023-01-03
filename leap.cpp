@@ -12,7 +12,7 @@ int main()
     else if(k%4==0)
         k=1;
     if(k==1)
-        cout<<"The yesr is a Leap Year."<<"\n";
+        cout<<"The year is a Leap Year."<<"\n";
         else 
             cout<<"The year is not a Leap Year."<<"\n";
 }
